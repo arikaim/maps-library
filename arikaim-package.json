@@ -1,0 +1,27 @@
+{
+    "title": "Maps",
+    "name": "maps",
+    "version": "1.0.0",
+    "package-type": "library",
+    "repository": "https://github.com/arikaim/maps-library.git",
+    "description": "Maps library",
+    "files": [
+        "google/maps-init.js",
+        "https://maps.googleapis.com/maps/api/js"
+    ],
+    "versions": {
+        "google": {
+            "files": [
+                "google/maps-init.js",
+                "https://maps.googleapis.com/maps/api/js"
+            ]
+        }
+    },
+    "async": true,
+    "params-type": "url",
+    "params": {
+        "key": "{{ key }}",
+        "callback": "initMap"
+    },
+    "disabled": false
+}
