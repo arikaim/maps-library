@@ -1,7 +1,7 @@
 {
     "title": "Maps",
     "name": "maps",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "package-type": "library",
     "repository": "https://github.com/arikaim/maps-library.git",
     "description": "Maps library",
@@ -23,5 +23,5 @@
         "key": "{{ key }}",
         "callback": "initMap"
     },
-    "disabled": false
+    "disabled": true
 }
