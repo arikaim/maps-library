@@ -21,8 +21,8 @@ function Geolocation() {
                 lng: position.coords.longitude
             };
             callFunction(onSuccess,position);
-        },function() {
-            callFunction(onError);
+        },function(error) {
+            callFunction(onError,error);
         });   
     }
 }
