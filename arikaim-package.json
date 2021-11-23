@@ -1,7 +1,7 @@
 {
     "title": "Maps",
     "name": "maps",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "package-type": "library",
     "repository": "https://github.com/arikaim/maps-library.git",
     "description": "Maps library",
@@ -15,8 +15,7 @@
             ]
         },
         "openstreet": {
-            "files": [
-                "geolocation.js",
+            "files": [              
                 "openstreet/leaflet.css",
                 "openstreet/leaflet.js"               
             ]
