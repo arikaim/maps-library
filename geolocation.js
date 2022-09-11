@@ -3,11 +3,7 @@
 function Geolocation() {
 
     this.isSupported = function() {
-        if (isObject(navigator.geolocation) == false) {
-            return false;
-        }
-
-        return true;
+        return (typeof navigator.geolocation !== 'object') ? false : true;
     } 
 
     this.getCurrentPosition = function(onSuccess, onError) {

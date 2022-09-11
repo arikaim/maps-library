@@ -1,7 +1,7 @@
 {
     "title": "Maps",
     "name": "maps",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "package-type": "library",
     "repository": "https://github.com/arikaim/maps-library.git",
     "description": "Maps library",
@@ -21,5 +21,9 @@
             ]
         }
     },
-    "disabled": false
+    "disabled": false,
+    "params-type": "url",
+    "params": {
+        "key": "{{ api_key }}"
+    }
 }
